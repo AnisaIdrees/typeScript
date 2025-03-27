@@ -36,3 +36,13 @@ console.log(person);
 let user : [name:string, email:string];
 user = ['Ali','ali@gmail.com'];
 console.log(user);
+
+
+class Person{
+    constructor(){
+        
+    }
+}
+const graph: [x: number, y: number] = [55.2, 41.3];
+// const graph: [number, number] = [55.2, 41.3];
+// const [x, y] = graph;
