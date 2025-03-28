@@ -27,8 +27,10 @@ let student2: readonly [string, number, boolean] = ['aneesa', 17, true,]; /*A go
 console.log(student2);
 
 
-//  --------------- named Tuples --------------------- //
+//  ----------------------------- named Tuples ---------------------------------------- //
+
 //Named tuples provide more context for what our index values represent.
+// Readable & Structured
 
 const person : [name:string , skill:string]=['aneesa','web developer'];
 console.log(person);
@@ -46,6 +48,39 @@ class Person{
 const graph: [x: number, y: number] = [55.2, 41.3];
 // const graph: [number, number] = [55.2, 41.3];
 // const [x, y] = graph;
+
+
+
+
+
+
+//  ----------------------------- Destructured Tuples ---------------------------------------- //
+// D.Tuple  ko separate variables me assign krne kelie use hota he 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
