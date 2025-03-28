@@ -18,10 +18,35 @@ let student2 = ['aneesa', 17, true,]; /*A good practice is to make your tuple re
                                                       Tuples only have strongly defined types for the initial values:  */
 // student2.push('developer'); // error 
 console.log(student2);
-//  --------------- named Tuples --------------------- //
+//  ----------------------------- named Tuples ---------------------------------------- //
 //Named tuples provide more context for what our index values represent.
+// Readable & Structured
 const person = ['aneesa', 'web developer'];
 console.log(person);
 let user;
 user = ['Ali', 'ali@gmail.com'];
 console.log(user);
+class Person {
+    constructor() {
+    }
+}
+const graph = [55.2, 41.3];
+// const graph: [number, number] = [55.2, 41.3];
+// const [x, y] = graph;
+//  ----------------------------- Destructured Tuples ---------------------------------------- //
+// D.Tuple  ko separate variables me assign krne kelie use hota he 
+let user3 = ['Aneesa', 17];
+let [userName, userAge] = user3;
+console.log(userName, userAge);
+const carYear = 2001;
+const carType = "Toyota";
+const carModel = "Corolla";
+const car = {
+    year: carYear,
+    type: carType,
+    model: carModel
+};
+const rectangle = {
+    height: 20,
+    width: 10
+};

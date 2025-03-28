@@ -56,6 +56,10 @@ const graph: [x: number, y: number] = [55.2, 41.3];
 
 //  ----------------------------- Destructured Tuples ---------------------------------------- //
 // D.Tuple  ko separate variables me assign krne kelie use hota he 
+let user3 : [name:string , age:number]=['Aneesa',17];
+let [userName , userAge]=user3
+console.log(userName,userAge);
+
 
 
 
